@@ -1,0 +1,7 @@
+* {  /* o asteristico significa configuração global do css*/
+    height: 100%;
+}
+body {
+    background-image: linear-gradient(50deg, #FCF86D , #E0CC3D, #F5D142, #DEAD31, #FFB638  );
+    background-attachment: fixed;
+}

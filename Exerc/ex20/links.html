@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+        }
+        a:hover {
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+        }
+        a::after {
+            content:'[linker]';
+            color: lightgrey;
+           
+        }
+        a:active {
+            color: blue;
+        }
+        }
+        a:active {
+            color: blue;
+        }
+        .facil:visited {
+            color: maroon;
+            
+        }
+        .facil::before {
+            content: '▶';
+        }
+        .facil::after {
+            content: '⏎';
+        }
+        a:visited {
+            color: rgb(44, 43, 28);
+        }
+        .facil:active {
+            color: yellow;
+        }
+        .facil:hover {
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>links</h1>
+    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="facil">link youtube</a>
+    <br>
+    <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">link facebook</a>
+    <br>
+    <a href="http://business.facebook.com" target="_blank" rel="noopener noreferrer" class="facil">business facebook</a>
+    
+</body>
+</html>
